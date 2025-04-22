@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/imageTopStory"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <!-- Title below the image -->
+    <TextView
+        android:id="@+id/textNewsTitle"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="News Title Goes Here"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:maxLines="2"
+        android:ellipsize="end" />
+    <!-- Summary -->
+    <TextView
+        android:id="@+id/textNewsSummary"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="News summary goes here"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:maxLines="3"
+        android:ellipsize="end" />
+
+
+</LinearLayout>
